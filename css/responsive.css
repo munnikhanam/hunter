@@ -1,0 +1,719 @@
+@media(min-width:320px) and (max-width:575px){
+    .tittle{
+        margin-top: -50px;
+        margin-bottom: 45px;
+    }
+    .tittle h3{
+        font-size: 30px;
+    }
+    .tittle p{
+        width: auto;
+        margin: 10px 0;
+    }
+    nav button i{
+        font-size: 20px;
+        color: #fff;
+    }
+    nav ul{
+        background: #000;
+        text-align: center;
+        padding: 10px 0;
+    }
+    nav ul li{
+        margin-left: 0;
+    }
+     nav .nav-item a:hover::after{
+         width: 0;
+     }
+     /* ==================================
+                banner-part start
+     ======================================= */
+     #banner-part .banner .overlay {
+        padding-bottom: 70px;
+    }
+     #banner-part .banner h3 {
+        font-size: 25px;
+    }
+    #banner-part .banner h1 {
+        font-size: 50px;
+    }
+    #banner-part .banner p {
+        width: auto;
+    }
+    #banner-part .slick-dots{
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+    }
+    #banner-part ul{
+        padding: 0;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    #banner-part .slick-dots li button{
+        width: 15px;
+        height: 15px;
+        border: 1px solid #d2a30e;
+        font-size: 0;
+        background: transparent;
+    }
+    #banner-part .slick-dots .slick-active button {
+        background: #d2a30e;
+        border-color: #d2a30e;
+    }
+    #banner-shape{
+        display: none;
+    }
+    /* ======================================
+    
+    ============================================*/
+    #about-part .round{
+        display: none;
+    }
+    #about-part .shape{
+        display: none;
+    }
+    #about-part i{
+        display: none;
+    }
+    #about-part .text{
+        padding: 15px;
+    }
+
+    #about-part .left {
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #about-part .left p{
+        padding: 0;
+    }
+    #about-part .right {
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    #about-part .bottom{
+        padding: 15px;
+        margin: 0;
+    }
+
+    #port-shape-top{
+        display: none;
+
+    }
+    /* =======================================
+            gallery-part start
+    ==============================================*/
+    #port-part .overlay {
+        padding-top: 62px;
+        padding-bottom: 10px;
+    }
+    #port-shape-bottom{
+        display: none;
+    }
+      /* =======================================
+            gallery-part end
+    ==============================================*/
+      /* =======================================
+            service-part start
+    ==============================================*/
+    #service-part{
+        margin-top: 60px;
+        background: #f1f1f1;
+    }
+    #service-part .service-item{
+        flex-direction: column;
+    }
+    #service-part .service-item:nth-child(odd)
+{
+    flex-direction: column;
+}
+#service-part .service-item .one{
+    width: 100%;
+    margin: 50px 0;
+    justify-content: center;
+    text-align: center;
+}
+#service-part .service-item .two{
+    width: 100%;
+    margin: 50px 0;
+}
+#service-part .service-item .three{
+    width: 100%;
+    text-align: center;
+}
+#service-part .service-item .three p {
+  text-align: center;
+    padding: 13px;
+
+}
+#service-part .service-item:nth-child(2n+1) .one {
+    justify-content: center;
+}
+#service-part .chain{
+    display: none;
+}
+#service-part .prev{
+    top: -2%;
+}
+#service-part .next{
+    bottom: -15%;
+}
+
+      /* =======================================
+            service-part end
+    ==============================================*/
+
+ /* =======================================
+            portfolio-part start
+    ==============================================*/
+    #portfolio-part {
+        margin-top: 100px;
+    }
+    #portfolio-part .overlay {
+        padding: 15px 0;
+    }
+    #portfolio-part .overlay .portfolio-right-slider .portfolio-text{
+        width: auto !important;
+        text-align: center;
+        padding: 20px 0;
+    }
+    #portfolio-part .overlay .portfolio-left-slider {
+        margin: 50px 0;
+    }
+    
+    #portfolio-part .overlay .portfolio-left-slider .img{
+        margin-left: 97px;
+        
+    }
+    #portfolio-part .star-shape{
+        display: none;
+    }
+    #portfolio-part .prev {
+        top: -40px;
+    }
+    #portfolio-part .next {
+        bottom: -40px;
+    }
+  
+    #portfolio-shape-top{
+        display: none;
+    }
+    #portfolio-shape-bottom{
+        display: none;
+    }
+    #portfolio-part .dot{
+        display: none;
+    }
+     /* =======================================
+            portfolio-part end
+    ==============================================*/
+      /* =======================================
+            price-part start
+    ==============================================*/
+    #price-part {
+        margin-top: 65px;
+        margin-bottom: 0px;
+    }
+    #price-part .item{
+        margin-bottom: 10px;
+    }
+
+  /* =======================================
+            price-part end
+    ==============================================*/
+     /* =======================================
+            counter-part start
+    ==============================================*/
+    #counter-part .c-shape{
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay {
+        padding: 30px 0;
+    }
+    #counter-part .overlay .item{
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    #counter-part .overlay .item h4{
+        font-size: 25px;
+    }
+    #counter-part .overlay .item p{
+        font-size: 14px;
+    }
+
+
+    #counter-shape-top{
+        display: none;
+    }
+    #counter-shape-bottom{
+        display: none;
+    }
+     /* =======================================
+            counter-part end
+    ==============================================*/
+
+     /* =======================================
+            card-part start
+    ==============================================*/
+    #card-part{
+        position: relative;
+        padding: 50px 0;
+    }
+    #card-part .card-shape {
+        transform: rotate(0deg);
+    }
+  
+    #card-part .prev{
+        position: absolute;
+       bottom: -30px;
+       left: 50%;
+       transform: translateX(-50%);
+       color: #d2a30e;
+       background: #fff;
+       border: 1px solid #d2a30e;
+       border-radius: 2px;
+       width: 20px;
+       height: 20px;
+       line-height: 20px;
+       text-align: center;
+      transition: .5s;
+    }
+    #card-part .next{
+        position: absolute;
+       bottom: -30px;
+       left: 60%;
+       transform: translateX(-50%);
+       
+       border: 1px solid #d2a30e;
+       border-radius: 2px;
+       width: 20px;
+       height: 20px;
+       line-height: 20px;
+       text-align: center;
+       color: #d2a30e;
+       background: #fff;
+       transition: .5s;
+    }
+    #card-part .prev:hover{
+        color: #ffff;
+        background: #d2a30e;
+    }
+    #card-part .next:hover{
+        color: #ffff;
+        background: #d2a30e;
+    }
+
+    #card-shape-top{
+        display: none;
+    }
+    #card-shape-bottom{
+        display: none;
+    }
+    
+     /* =======================================
+            card-part end
+    ==============================================*/
+
+    footer{
+        margin-top: 0px;
+  
+    }
+    footer .logo{
+       
+        padding: 10px;
+        transform: rotate(0deg);
+    }
+    footer .logo img{
+        transform: rotate(0deg);
+    }
+    footer .details{
+        padding: 10px 0;
+    }
+    footer .bord .item{
+        border: 0;
+    }
+    footer .item .text p {
+        margin: 10px auto;
+        font-size: 14px;
+    }
+    footer .last{
+        margin: 0;
+    }
+}
+@media(min-width:579px) and (max-width:767px){
+    .tittle{
+        margin-top: -20px;
+        margin-bottom: 45px;
+    }
+    .tittle h3{
+        font-size: 30px;
+    }
+    .tittle p{
+        width: 445px;
+        margin: 10px auto;
+    }
+    nav button i{
+        font-size: 20px;
+        color: #fff;
+    }
+    nav ul{
+        background: #000;
+        text-align: center;
+        padding: 10px 0;
+    }
+    nav ul li{
+        margin-left: 0;
+    }
+     nav .nav-item a:hover::after{
+         width: 0;
+     }
+
+/* =================================
+==================================== */
+#banner-part .banner .overlay {
+    padding-bottom: 70px;
+}
+ #banner-part .banner h3 {
+    font-size: 30px;
+}
+#banner-part .banner h1 {
+    font-size: 50px;
+}
+#banner-part .banner p {
+    width: auto;
+}
+#banner-part .slick-dots{
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+#banner-part ul{
+    padding: 0;
+}
+#banner-part .slick-dots li{
+    display: inline-block;
+    margin-left: 10px;
+}
+#banner-part .slick-dots li button{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #d2a30e;
+    font-size: 0;
+    background: transparent;
+}
+#banner-part .slick-dots .slick-active button {
+    background: #d2a30e;
+    border-color: #d2a30e;
+}
+#banner-shape{
+    display: none;
+}
+
+/* =============================================
+
+====================================================*/
+
+#about-part .shape{
+    display: none;
+}
+#about-part i{
+    display: none;
+}
+#about-part .text{
+    padding: 15px;
+}
+#about-part .text p{
+    padding: 15px 56px;
+}
+
+#about-part .left {
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#about-part .left p{
+    padding: 15px 56px;
+}
+#about-part .right p{
+    padding: 15px 56px;
+    text-align: center;
+}
+#about-part .right {
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#about-part .bottom{
+    padding: 15px;
+    margin: 0;
+}
+#about-part .bottom p{
+    padding: 15px 56px;
+}
+
+#port-shape-top{
+    display: none;
+
+}
+/* =======================================
+================================================ */
+#port-part .overlay {
+    padding-top: 62px;
+    padding-bottom: 10px;
+}
+#port-shape-bottom{
+    display: none;
+}
+
+
+  /* =======================================
+        gallery-part end
+==============================================*/
+  /* =======================================
+        service-part start
+==============================================*/
+#service-part{
+    margin-top: 60px;
+    background: #f1f1f1;
+}
+#service-part .service-item{
+    flex-direction: column;
+}
+#service-part .service-item:nth-child(odd)
+{
+flex-direction: column;
+}
+#service-part .service-item .one{
+width: 100%;
+margin: 50px 0;
+justify-content: center;
+text-align: center;
+}
+#service-part .service-item .two{
+width: 100%;
+margin: 50px 0;
+}
+#service-part .service-item .three{
+width: 100%;
+text-align: center;
+}
+#service-part .service-item .three p {
+text-align: center;
+padding: 35px;
+
+}
+#service-part .service-item:nth-child(2n+1) .one {
+justify-content: center;
+}
+#service-part .chain{
+display: none;
+}
+#service-part .slick-dots{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    #service-part ul{
+        padding: 0;
+    }
+    #service-part .slick-dots li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    #service-part .slick-dots li button{
+        width: 15px;
+        height: 15px;
+        border: 1px solid #d2a30e;
+        font-size: 0;
+        background: transparent;
+    }
+    #service-part .slick-dots .slick-active button {
+        background: #d2a30e;
+        border-color: #d2a30e;
+    }
+
+
+     /* =======================================
+            portfolio-part start
+    ==============================================*/
+    #portfolio-part {
+        margin-top: 100px;
+    }
+    #portfolio-part .overlay {
+        padding: 15px 0;
+    }
+    #portfolio-part .overlay .portfolio-right-slider .portfolio-text{
+        width: auto !important;
+        text-align: center;
+        padding: 20px 0;
+    }
+    #portfolio-part .overlay .portfolio-left-slider {
+        margin: 50px 0;
+    }
+    
+    #portfolio-part .overlay .portfolio-left-slider .img{
+      margin: 20px auto;
+        
+    }
+    #portfolio-part .star-shape{
+        display: none;
+    }
+    #portfolio-part .prev {
+        top: -40px;
+    }
+    #portfolio-part .next {
+        bottom: -40px;
+    }
+  
+    #portfolio-shape-top{
+        display: none;
+    }
+    #portfolio-shape-bottom{
+        display: none;
+    }
+    #portfolio-part .dot{
+        display: none;
+    }
+        /* =======================================
+            price-part start
+    ==============================================*/
+    #price-part {
+        margin-top: 65px;
+        margin-bottom: 0px;
+    }
+    #price-part .item{
+        margin-bottom: 10px;
+    }
+      /* =======================================
+            price-part end
+    ==============================================*/
+     /* =======================================
+            counter-part start
+    ==============================================*/
+    #counter-part .c-shape{
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay {
+        padding: 30px 0;
+    }
+    #counter-part .overlay .item{
+        margin-left: 45px;
+    }
+    
+    #counter-part .overlay .item h4{
+        font-size: 25px;
+    }
+    #counter-part .overlay .item p{
+        font-size: 14px;
+    }
+
+
+    #counter-shape-top{
+        display: none;
+    }
+    #counter-shape-bottom{
+        display: none;
+    }
+     /* =======================================
+            counter-part end
+    ==============================================*/
+
+     /* =======================================
+            card-part start
+    ==============================================*/
+    #card-part{
+        position: relative;
+        padding: 50px 0;
+    }
+    #card-part .card-shape {
+        transform: rotate(0deg);
+    }
+  
+    #card-part .prev{
+        position: absolute;
+       bottom: -30px;
+       left: 50%;
+       transform: translateX(-50%);
+       color: #d2a30e;
+       background: #fff;
+       border: 1px solid #d2a30e;
+       border-radius: 2px;
+       width: 20px;
+       height: 20px;
+       line-height: 20px;
+       text-align: center;
+      transition: .5s;
+    }
+    #card-part .next{
+        position: absolute;
+       bottom: -30px;
+       left: 60%;
+       transform: translateX(-50%);
+       
+       border: 1px solid #d2a30e;
+       border-radius: 2px;
+       width: 20px;
+       height: 20px;
+       line-height: 20px;
+       text-align: center;
+       color: #d2a30e;
+       background: #fff;
+       transition: .5s;
+    }
+    #card-part .prev:hover{
+        color: #ffff;
+        background: #d2a30e;
+    }
+    #card-part .next:hover{
+        color: #ffff;
+        background: #d2a30e;
+    }
+
+    #card-shape-top{
+        display: none;
+    }
+    #card-shape-bottom{
+        display: none;
+    }
+    
+     /* =======================================
+            card-part end
+    ==============================================*/
+
+    footer{
+        margin-top: 0px;
+  
+    }
+    footer .logo{
+       
+        padding: 10px;
+        transform: rotate(0deg);
+    }
+    footer .logo img{
+        transform: rotate(0deg);
+    }
+    
+    footer .bord .item{
+        border: 0;
+    }
+    footer .item .text p {
+        
+        font-size: 14px;
+    }
+    footer .last{
+        margin: 0;
+    }
+
+
+}
